@@ -22,7 +22,7 @@
 @layer components {
   .content-grid {
     --padding-inline: 1rem;
-    --content-max-width: 55rem;
+    --content-max-width: 70rem;
     --breakout-max-width: 85rem;
 
     --breakout-size: calc((var(--breakout-max-width) - var(--content-max-width)) / 2);
