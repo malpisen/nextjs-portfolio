@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="content-grid bg-gray-500 text-white">
+    <nav className="content-grid">
       <ul className="breakout my-4 flex items-center space-x-4">
         <li>
           <Link href="/" className="text-2xl font-bold hover:underline">
