@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export function Navbar() {
+export default function Navbar() {
   return (
     <nav className="content-grid bg-gray-500 text-white">
       <ul className="breakout my-4 flex items-center space-x-4">
