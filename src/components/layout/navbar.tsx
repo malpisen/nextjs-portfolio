@@ -5,8 +5,8 @@ export default function Navbar() {
     <nav className="content-grid">
       <ul className="breakout my-4 flex items-center space-x-4">
         <li>
-          <Link href="/" className="text-2xl font-bold hover:underline">
-            Malin Rydefalk
+          <Link href="/" className="text-4xl font-bold hover:underline">
+            <h1>Malin Rydefalk</h1>
           </Link>
         </li>
         <div className="ml-auto flex items-center space-x-4">
