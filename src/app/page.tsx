@@ -1,9 +1,60 @@
 import Hero from "@/components/sections/hero";
+import Skills from "@/components/sections/skills";
 
 export default function Home() {
   return (
     <main className="content-grid">
       <Hero />
+      <section className="my-10">
+        <h2 className="my-5 text-2xl font-bold">About Me</h2>
+        <p>
+          I'm Malin, a passionate web developer with a knack for creating
+          dynamic and user-friendly websites. With a strong foundation in both
+          front-end and back-end technologies, I strive to build seamless
+          digital experiences that captivate users and drive engagement.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda,
+          eos voluptate? Temporibus tempora debitis aliquid sit suscipit
+          doloremque repellat? Sunt recusandae deserunt aliquam, dicta magni
+          amet alias similique minus assumenda?
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus
+          doloremque quidem laboriosam perspiciatis illo nulla tempore rerum
+          nobis repellat harum? Dolorum ea similique, placeat cum nesciunt velit
+          reiciendis unde facilis.
+        </p>
+      </section>
+      <Skills />
+      <section className="my-10">
+        <h2 className="my-5 text-2xl font-bold">Projects</h2>
+        <p>Here are a few projects I've worked on recently:</p>
+        <ul>
+          <li>
+            <strong>Portfolio Website:</strong> A personal portfolio showcasing
+            my projects and skills, built with Next.js and styled-components.
+          </li>
+          <li>
+            <strong>E-commerce Platform:</strong> Developed a e-commerce
+            application using React, Next.js and Tailwind CSS.
+          </li>
+          <li>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            possimus laboriosam dicta recusandae tempore maxime odit natus
+            excepturi officia, vitae saepe asperiores quasi cum praesentium
+            consequatur atque impedit? Laborum, voluptate?
+          </li>
+        </ul>
+      </section>
+      <section className="my-10">
+        <h2 className="my-5 text-2xl font-bold">Contact Me</h2>
+        <p>
+          I'm always open to discussing new projects or opportunities. Feel free
+          to reach out to me at{" "}
+          <a href="mailto:malin@example.com">malin@example.com</a>.
+        </p>
+      </section>
     </main>
   );
 }
