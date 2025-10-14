@@ -6,7 +6,7 @@ export default function Home() {
     <main className="content-grid">
       <Hero />
       <section className="my-10">
-        <h2 className="my-5 text-2xl font-bold">About Me</h2>
+        <h2>About Me</h2>
         <p>
           I'm Malin, a passionate web developer with a knack for creating
           dynamic and user-friendly websites. With a strong foundation in both
@@ -28,7 +28,7 @@ export default function Home() {
       </section>
       <Skills />
       <section className="my-10">
-        <h2 className="my-5 text-2xl font-bold">Projects</h2>
+        <h2>Projects</h2>
         <p>Here are a few projects I've worked on recently:</p>
         <ul>
           <li>
@@ -48,7 +48,7 @@ export default function Home() {
         </ul>
       </section>
       <section className="my-10">
-        <h2 className="my-5 text-2xl font-bold">Contact Me</h2>
+        <h2>Contact Me</h2>
         <p>
           I'm always open to discussing new projects or opportunities. Feel free
           to reach out to me at{" "}
