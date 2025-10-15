@@ -1,19 +1,57 @@
-import Hero from "@/components/sections/hero";
+import { SiLinkedin, SiGithub } from "react-icons/si";
+import { Mail, Phone } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="content-grid gap-4">
-      <Hero />
-      <section>
-        <p>
-          I'm a fast-learning and driven developer with a broad academic
-          background in computer and systems sciences from Stockholm University.
-          I'm passionate about programming and have a strong analytical mindset
-          that helps me solve problems efficiently. I'm responsible, resilient
-          under pressure, and equally comfortable working independently or as
-          part of a team — qualities that I believe are essential for driving
-          progress in both technology and people.
-        </p>
+      <section className="full-width relative overflow-hidden py-20">
+        <div className="full-width absolute inset-0 rounded-full inset-shadow-[0_0_60px_70px_white] bg-gradient-to-bl from-green-200 to-violet-300" />
+        <div className="relative grid md:grid-cols-2 items-center text-center">
+          <div className="space-y-4">
+            <h2 className="text-4xl">Hello World, I'm Malin</h2>
+            <ul className="flex justify-center space-x-4">
+              <li>
+                <Link href="https://www.linkedin.com/in/malin-rydefalk/">
+                  <SiLinkedin className="w-6 h-6 text-black hover:text-gray-700" />
+                </Link>
+              </li>
+              <li>
+                <Link href="https://github.com/malpisen">
+                  <SiGithub className="w-6 h-6 text-black hover:text-gray-700" />
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact">
+                  <Mail className="w-6 h-6 text-black hover:text-gray-700" />
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact">
+                  <Phone className="w-6 h-6 text-black hover:text-gray-700" />
+                </Link>
+              </li>
+            </ul>
+            <p>
+              I'm a fast-learning and driven developer with a broad academic
+              background in computer and systems sciences from Stockholm
+              University. I'm passionate about programming and have a strong
+              analytical mindset that helps me solve problems efficiently. I'm
+              responsible, resilient under pressure, and equally comfortable
+              working independently or as part of a team - qualities that I
+              believe are essential for driving progress in both technology and
+              people.
+            </p>
+          </div>
+          <Image
+            className="rounded-3xl shadow-lg place-self-center my-4"
+            src="/images/malin-rydefalk.jpg"
+            width={250}
+            height={293}
+            alt="Picture of Malin"
+          />
+        </div>
       </section>
       <section>
         <h2>Technical skills</h2>
