@@ -18,7 +18,7 @@ export default function Skills() {
     <section className="full-width relative overflow-hidden pt-20 pb-30">
       <div className="full-width absolute inset-0 inset-shadow-[0_0_60px_70px_white] bg-gradient-to-bl from-yellow-100 to-green-100" />
       <div className="relative">
-        <h2 className="my-5 text-2xl font-bold">Skills</h2>
+        <h2>Skills</h2>
         <ul className="flex justify-between items-center gap-5 text-4xl">
           <li>
             <SiHtml5 />
