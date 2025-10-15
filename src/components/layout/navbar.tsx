@@ -1,4 +1,5 @@
 import Link from "next/link";
+import CVButton from "../ui/cv-button";
 
 export default function Navbar() {
   return (
@@ -25,10 +26,7 @@ export default function Navbar() {
               Contact
             </Link>
           </li>
-          {/* If this changes to Link - prefetch={false} */}
-          <button className="px-4 py-2 text-black bg-pink-200 rounded-lg hover:bg-pink-300 cursor-pointer">
-            Download CV
-          </button>
+          <CVButton />
         </div>
       </ul>
     </nav>
