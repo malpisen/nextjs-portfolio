@@ -12,7 +12,7 @@ export default function ContactPage() {
               <p>
                 Don't hesitate to reach out — whether you're looking for a
                 developer, have a question, want to exchange ideas, or simply
-                want to say hi!
+                just want to say hi!
               </p>
             </div>
             <div>
