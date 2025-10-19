@@ -1,7 +1,8 @@
 import Hero from "@/components/sections/hero";
 import Skills from "@/components/sections/skills";
+import Link from "next/link";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main className="content-grid">
       <Hero />
@@ -47,13 +48,17 @@ export default function Home() {
           </li>
         </ul>
       </section>
-      <section className="my-10">
-        <h2>Contact Me</h2>
-        <p>
-          I'm always open to discussing new projects or opportunities. Feel free
-          to reach out to me at{" "}
-          <a href="mailto:malin@example.com">malin@example.com</a>.
-        </p>
+      <section className="full-width relative overflow-hidden pt-20 pb-30">
+        <div className="full-width absolute inset-0 inset-shadow-[0_0_60px_70px_white] bg-gradient-to-bl from-blue-200 to-purple-200" />
+        <div className="relative">
+          <h2>Contact Me</h2>
+          <p>
+            I'm always open to discussing new projects or opportunities. Feel
+            free to reach out to me at
+            <a href="mailto:malin@example.com"> malin@example.com</a> or
+            <Link href={"/contact"}> here on my contact page</Link>.
+          </p>
+        </div>
       </section>
     </main>
   );

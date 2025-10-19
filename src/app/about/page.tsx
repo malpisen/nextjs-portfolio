@@ -1,9 +1,8 @@
-import { SiLinkedin, SiGithub } from "react-icons/si";
-import { Mail, Phone } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
+import Socials from "@/components/ui/socials";
+import CVButton from "@/components/ui/cv-button";
 
-export default function Home() {
+export default function AboutPage() {
   return (
     <main className="content-grid gap-4">
       <section className="full-width relative overflow-hidden py-20">
@@ -11,28 +10,7 @@ export default function Home() {
         <div className="relative grid md:grid-cols-2 items-center text-center">
           <div className="space-y-4">
             <h2 className="text-4xl">Hello World, I'm Malin</h2>
-            <ul className="flex justify-center space-x-4">
-              <li>
-                <Link href="https://www.linkedin.com/in/malin-rydefalk/">
-                  <SiLinkedin className="w-6 h-6 text-black hover:text-gray-700" />
-                </Link>
-              </li>
-              <li>
-                <Link href="https://github.com/malpisen">
-                  <SiGithub className="w-6 h-6 text-black hover:text-gray-700" />
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact">
-                  <Mail className="w-6 h-6 text-black hover:text-gray-700" />
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact">
-                  <Phone className="w-6 h-6 text-black hover:text-gray-700" />
-                </Link>
-              </li>
-            </ul>
+            <Socials />
             <p>
               I'm a fast-learning and driven developer with a broad academic
               background in computer and systems sciences from Stockholm
@@ -202,10 +180,7 @@ export default function Home() {
           simultaneously.”
         </p>
       </section>
-      {/* If this changes to Link - prefetch={false} */}
-      <button className="flex place-self-start px-4 py-2 text-black bg-pink-200 rounded-lg hover:bg-pink-300 cursor-pointer">
-        Download CV
-      </button>
+      <CVButton />
     </main>
   );
 }

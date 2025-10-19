@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { SiLinkedin, SiGithub } from "react-icons/si";
 import { Mail, Phone } from "lucide-react";
+import Socials from "../ui/socials";
 
 export default function Hero() {
   return (
@@ -11,28 +12,7 @@ export default function Hero() {
         <div className="mx-10 space-y-4">
           <h2 className="text-5xl">Hello World, {<br />}I'm Malin</h2>
           <h3 className="font-normal">Frontend Developer</h3>
-          <ul className="flex justify-center space-x-4">
-            <li>
-              <Link href="https://www.linkedin.com/in/malin-rydefalk/">
-                <SiLinkedin className="w-6 h-6 text-black hover:text-gray-700" />
-              </Link>
-            </li>
-            <li>
-              <Link href="https://github.com/malpisen">
-                <SiGithub className="w-6 h-6 text-black hover:text-gray-700" />
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact">
-                <Mail className="w-6 h-6 text-black hover:text-gray-700" />
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact">
-                <Phone className="w-6 h-6 text-black hover:text-gray-700" />
-              </Link>
-            </li>
-          </ul>
+          <Socials />
         </div>
         <Image
           className="rounded-3xl shadow-lg place-self-center my-4"
