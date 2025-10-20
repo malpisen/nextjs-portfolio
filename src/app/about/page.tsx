@@ -4,12 +4,12 @@ import CVButton from "@/components/ui/cv-button";
 
 export default function AboutPage() {
   return (
-    <main className="content-grid gap-4">
+    <main className="content-grid">
       <section className="full-width relative overflow-hidden py-20">
-        <div className="full-width absolute inset-0 rounded-full inset-shadow-[0_0_60px_70px_white] bg-gradient-to-bl from-green-200 to-violet-300" />
+        <div className="full-width absolute inset-0 rounded-full inset-shadow-[0_0_60px_70px_white] bg-gradient-to-bl from-green-200 via-blue-200 to-violet-300" />
         <div className="relative grid md:grid-cols-2 items-center text-center">
           <div className="space-y-4">
-            <h2 className="text-4xl">Hello World, I'm Malin</h2>
+            <h2>Hello World, I'm Malin</h2>
             <Socials />
             <p>
               I'm a fast-learning and driven developer with a broad academic
