@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main className="content-grid">
+    <>
       <Hero />
       <section className="my-10">
         <h2>About Me</h2>
@@ -60,6 +60,6 @@ export default function HomePage() {
           </p>
         </div>
       </section>
-    </main>
+    </>
   );
 }
