@@ -3,6 +3,7 @@ import Skills from "@/components/sections/skills";
 import Link from "next/link";
 import { Project } from "@/lib/types/project";
 import ProjectCard from "@/components/ui/project-card";
+import ProjectList from "@/components/sections/project-list";
 
 export default async function HomePage() {
   const baseUrl =
@@ -44,13 +45,7 @@ export default async function HomePage() {
       <Skills />
       <section className="my-10">
         <h2>Projects</h2>
-        <ul className="grid md:grid-cols-2 lg:grid-cols-3 py-10 px-20 xl:px-0 gap-6 items-stretch">
-          {projects.slice(0, 3).map((project) => (
-            <li key={project.id}>
-              <ProjectCard key={project.id} project={project} />
-            </li>
-          ))}
-        </ul>
+        <ProjectList projects={projects.splice(0, 3)} />
       </section>
       <section className="full-width relative overflow-hidden pt-20 pb-30">
         <div className="full-width absolute inset-0 inset-shadow-[0_0_60px_70px_white] bg-gradient-to-bl from-blue-200 to-purple-200" />
