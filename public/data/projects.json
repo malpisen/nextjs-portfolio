@@ -2,8 +2,8 @@
   {
     "id": 1,
     "slug": "project-1",
-    "titel": "Project 1",
-    "image": "",
+    "title": "Project 1",
+    "image": "https://picsum.photos/id/4/300/200",
     "tags": ["HTML5", "CSS3", "JavaScript", "APIs"],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "github": "https://github.com/malpisen/"
@@ -11,8 +11,8 @@
   {
     "id": 2,
     "slug": "project-2",
-    "titel": "Project 2",
-    "image": "",
+    "title": "Project 2",
+    "image": "https://picsum.photos/id/6/300/200",
     "tags": ["React", "Next.js", "Tailwind CSS"],
     "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "github": "https://github.com/malpisen/"
@@ -20,8 +20,8 @@
   {
     "id": 3,
     "slug": "project-3",
-    "titel": "Project 3",
-    "image": "",
+    "title": "Project 3",
+    "image": "https://picsum.photos/id/3/300/200",
     "tags": ["Node.js", "Express", "MongoDB"],
     "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "github": "https://github.com/malpisen/"
@@ -29,8 +29,8 @@
   {
     "id": 4,
     "slug": "project-4",
-    "titel": "Project 4",
-    "image": "",
+    "title": "Project 4",
+    "image": "https://picsum.photos/id/0/300/200",
     "tags": ["Python", "Django", "REST API"],
     "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "github": "https://github.com/malpisen/"
