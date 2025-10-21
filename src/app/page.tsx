@@ -1,8 +1,22 @@
 import Hero from "@/components/sections/hero";
 import Skills from "@/components/sections/skills";
 import Link from "next/link";
+import { Project } from "@/lib/types/project";
+import ProjectCard from "@/components/ui/project-card";
 
-export default function HomePage() {
+export default async function HomePage() {
+  const baseUrl =
+    process.env.NEXT_PUBLIC_BASE_URL || process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "http://localhost:3000";
+
+  const res = await fetch(`${baseUrl}/data/projects.json`);
+  if (!res.ok) {
+    throw new Error("Failed to fetch projects");
+  }
+
+  const projects: Project[] = await res.json();
+
   return (
     <>
       <Hero />
@@ -30,22 +44,12 @@ export default function HomePage() {
       <Skills />
       <section className="my-10">
         <h2>Projects</h2>
-        <p>Here are a few projects I've worked on recently:</p>
-        <ul>
-          <li>
-            <strong>Portfolio Website:</strong> A personal portfolio showcasing
-            my projects and skills, built with Next.js and styled-components.
-          </li>
-          <li>
-            <strong>E-commerce Platform:</strong> Developed a e-commerce
-            application using React, Next.js and Tailwind CSS.
-          </li>
-          <li>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            possimus laboriosam dicta recusandae tempore maxime odit natus
-            excepturi officia, vitae saepe asperiores quasi cum praesentium
-            consequatur atque impedit? Laborum, voluptate?
-          </li>
+        <ul className="grid md:grid-cols-2 lg:grid-cols-3 py-10 px-20 xl:px-0 gap-6 items-stretch">
+          {projects.slice(0, 3).map((project) => (
+            <li key={project.id}>
+              <ProjectCard key={project.id} project={project} />
+            </li>
+          ))}
         </ul>
       </section>
       <section className="full-width relative overflow-hidden pt-20 pb-30">
