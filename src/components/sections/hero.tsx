@@ -20,6 +20,7 @@ export default function Hero() {
           width={250}
           height={293}
           alt="Picture of Malin"
+          priority={true}
         />
       </div>
     </section>
