@@ -3,7 +3,8 @@ import Link from "next/link";
 export default function ContactPage() {
   return (
       <section className="relative overflow-hidden py-20">
-        <div className="absolute inset-0 rounded-4xl inset-shadow-[0_0_60px_70px_white] bg-gradient-to-bl from-orange-200 via-rose-200 to-violet-200" />
+        <div className="absolute inset-0 rounded-4xl inset-shadow-[0_0_60px_70px_white] 
+        bg-gradient-to-bl from-orange-200/80 via-rose-200/80 to-violet-200/80" />
         <div className="relative my-10 mx-30 grid items-center gap-4">
           <h2 className="text-center">Get in touch</h2>
           <div className="grid md:grid-cols-2 text-center gap-3">

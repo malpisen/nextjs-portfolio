@@ -26,7 +26,9 @@ export default function Navbar() {
               Contact
             </Link>
           </li>
-          <CVButton />
+          <li>
+            <CVButton />
+          </li>
         </div>
       </ul>
     </nav>

@@ -48,7 +48,7 @@ export default async function HomePage() {
         <ProjectList projects={projects.splice(0, 3)} />
       </section>
       <section className="full-width relative overflow-hidden pt-20 pb-30">
-        <div className="full-width absolute inset-0 inset-shadow-[0_0_60px_70px_white] bg-gradient-to-bl from-blue-200 to-purple-200" />
+        <div className="full-width absolute inset-0 inset-shadow-[0_0_60px_70px_white] bg-gradient-to-bl from-indigo-200/70  to-purple-200/70" />
         <div className="relative">
           <h2>Contact Me</h2>
           <p>
