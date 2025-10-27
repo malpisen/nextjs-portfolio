@@ -6,7 +6,8 @@ export default function AboutPage() {
   return (
     <>
       <section className="full-width relative overflow-hidden py-20">
-        <div className="full-width absolute inset-0 rounded-xl lg:rounded-full inset-shadow-[0_0_60px_70px_white] bg-gradient-to-bl from-green-200 via-blue-200 to-violet-300" />
+        <div className="full-width absolute inset-0 rounded-xl lg:rounded-full inset-shadow-[0_0_60px_70px_white] 
+        bg-gradient-to-bl from-green-200/70 from-20% via-blue-200/70 to-violet-300/70" />
         <div className="relative grid md:grid-cols-2 gap-4 px-20 py-5 xl:px-0 items-center text-center">
           <div className="space-y-4">
             <h2>Hello World, I'm Malin</h2>
