@@ -32,13 +32,13 @@ The design focuses on simplicity, readability, and soft gradients, while maintai
 
 ## ✨ Features
 
-✅ Hero section with name, title, and social links
-✅ Projects page displaying project cards fetched from local JSON data
-✅ About page with profile and background information
-✅ Contact page with form
-✅ Responsive layout and grid system using custom CSS and Tailwind
-✅ Dynamic gradient backgrounds with subtle shadows
-✅ Downloadable CV as PDF link
+- ✅ Hero section with name, title, and social links
+- ✅ Projects page displaying project cards fetched from local JSON data
+- ✅ About page with profile and background information
+- ✅ Contact page with form
+- ✅ Responsive layout and grid system using custom CSS and Tailwind
+- ✅ Dynamic gradient backgrounds with subtle shadows
+- ✅ Downloadable CV as PDF link
 
 ---
 
@@ -75,8 +75,6 @@ npm run dev
 ## 🚀 Usage
 
 - **Home page** → Hero section with intro and links, personal profile, featured projects and contact information
-- **Projects page** → Displays project cards with data from /data/projects.json
-
 - **Projects page** → Displays project cards with data from `/data/projects.json`
 - **About page** → Background and education
 - **Contact page** → Message form and social icons
@@ -159,6 +157,7 @@ This is a personal educational project, but contributions, feedback, or suggesti
 
 ## 🚧 Possible Improvements
 
+- Implement Loading/Suspense
 - Add animations and micro-interactions (Framer Motion)
 - Implement a working contact form using email API (e.g. Formspree)
 - Add dark/light theme toggle
@@ -177,8 +176,8 @@ Not intended for commercial use.
 ## ✍️ Contact
 
 **Malin Rydefalk**
-💼 [Portfolio](https://nextjs-portfolio-dun-delta.vercel.app/)
-🔗 [LinkedIn](https://www.linkedin.com/in/malin-rydefalk/)  
-🐙 [GitHub](https://github.com/malpisen)
+💼 [Portfolio](https://nextjs-portfolio-dun-delta.vercel.app/)<br>
+🔗 [LinkedIn](https://www.linkedin.com/in/malin-rydefalk/) <br>
+🐙 [GitHub](https://github.com/malpisen)<br>
 
 > “Don't hesitate to reach out — whether you're looking for a developer, have a question, want to exchange ideas, or simply just want to say hi!”
