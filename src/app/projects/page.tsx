@@ -1,9 +1,9 @@
-import { fetchProjects } from "@/lib/data/project-data";
+import { getProjects } from "@/lib/data/project-data";
 import { Project } from "@/lib/types/project";
 import ProjectList from "@/components/sections/project-list";
 
 export default async function ProjectsPage() {
-  const projects: Project[] = await fetchProjects();
+  const projects: Project[] = await getProjects();
 
   return (
     <section className="full-width relative overflow-hidden py-20">

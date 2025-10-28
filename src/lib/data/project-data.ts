@@ -1,3 +1,15 @@
+import fs from "fs";
+import path from "path";
+
+export async function getProjects() {
+  const filePath = path.join(process.cwd(), "public", "data", "projects.json");
+  const jsonData = fs.readFileSync(filePath, "utf-8");
+  const projects = JSON.parse(jsonData);
+  return projects;
+}
+
+/* Not accepted by Vercel...
+
 import { Project } from "../types/project";
 
 export async function fetchProjects(): Promise<Project[]> {
@@ -16,4 +28,4 @@ export async function fetchProjects(): Promise<Project[]> {
     console.log(error);
     throw new Error(`Could not reach the API to fetch projects.`);
   }
-}
+} */

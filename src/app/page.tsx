@@ -2,20 +2,11 @@ import Hero from "@/components/sections/hero";
 import Skills from "@/components/sections/skills";
 import Link from "next/link";
 import { Project } from "@/lib/types/project";
+import { getProjects } from "@/lib/data/project-data";
 import ProjectList from "@/components/sections/project-list";
 
 export default async function HomePage() {
-  const baseUrl =
-    process.env.NEXT_PUBLIC_BASE_URL || process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : "http://localhost:3000";
-
-  const res = await fetch(`${baseUrl}/data/projects.json`);
-  if (!res.ok) {
-    throw new Error("Failed to fetch projects");
-  }
-
-  const projects: Project[] = await res.json();
+  const projects: Project[] = await getProjects();
 
   return (
     <>
