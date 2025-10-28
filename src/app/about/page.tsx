@@ -12,17 +12,17 @@ export default function AboutPage() {
         />
         <div className="relative grid md:grid-cols-2 gap-4 px-20 py-5 xl:px-0 items-center text-center">
           <div className="space-y-4">
-            <h2 className="mb-0">Hello World, I'm Malin</h2>
+            <h2 className="mb-0">Hello World, I&apos;m Malin</h2>
             <Socials />
             <p>
-              I'm a fast-learning and driven developer with a broad academic
-              background in computer and systems sciences from Stockholm
-              University. I'm passionate about programming and have a strong
-              analytical mindset that helps me solve problems efficiently. I'm
-              responsible, resilient under pressure, and equally comfortable
-              working independently or as part of a team - qualities that I
-              believe are essential for driving progress in both technology and
-              people.
+              I&apos;m a fast-learning and driven developer with a broad
+              academic background in computer and systems sciences from
+              Stockholm University. I&apos;m passionate about programming and
+              have a strong analytical mindset that helps me solve problems
+              efficiently. I&apos;m responsible, resilient under pressure, and
+              equally comfortable working independently or as part of a team -
+              qualities that I believe are essential for driving progress in
+              both technology and people.
             </p>
           </div>
           <Image
@@ -117,13 +117,13 @@ export default function AboutPage() {
                   (on study and parental leave since Nov 2022)
                 </span>
                 <br />
-                Wrote my bachelor's thesis on organizational cybersecurity
+                Wrote my bachelor&apos;s thesis on organizational cybersecurity
                 awareness with connections to the ISO 27000 series and presented
                 the results to both Knowit and external stakeholders.
-                Participated in Knowit's trainee program “Cyber Hero Program”,
-                which included lectures, studies, and client projects within
-                cybersecurity and law. Also completed courses in Identity and
-                Access Management (IAM).
+                Participated in Knowit&apos;s trainee program “Cyber Hero
+                Program”, which included lectures, studies, and client projects
+                within cybersecurity and law. Also completed courses in Identity
+                and Access Management (IAM).
               </p>
             </li>
             <li>

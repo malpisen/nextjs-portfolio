@@ -2,7 +2,6 @@ import Hero from "@/components/sections/hero";
 import Skills from "@/components/sections/skills";
 import Link from "next/link";
 import { Project } from "@/lib/types/project";
-import ProjectCard from "@/components/ui/project-card";
 import ProjectList from "@/components/sections/project-list";
 
 export default async function HomePage() {
@@ -24,7 +23,7 @@ export default async function HomePage() {
       <section className="my-10">
         <h2>About Me</h2>
         <p>
-          I'm Malin, a passionate web developer with a knack for creating
+          I&apos;m Malin, a passionate web developer with a knack for creating
           dynamic and user-friendly websites. With a strong foundation in both
           front-end and back-end technologies, I strive to build seamless
           digital experiences that captivate users and drive engagement.
@@ -52,8 +51,8 @@ export default async function HomePage() {
         <div className="relative">
           <h2>Contact Me</h2>
           <p>
-            I'm always open to discussing new projects or opportunities. Feel
-            free to reach out to me at
+            I&apos;m always open to discussing new projects or opportunities.
+            Feel free to reach out to me at
             <a href="mailto:malin@example.com"> malin@example.com</a> or
             <Link href={"/contact"}> here on my contact page</Link>.
           </p>
