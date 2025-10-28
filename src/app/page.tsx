@@ -44,7 +44,7 @@ export default async function HomePage() {
       </section>
       <Skills />
       <section className="my-10">
-        <h2>Projects</h2>
+        <h2>Some of my recent projects</h2>
         <ProjectList projects={projects.splice(0, 3)} />
       </section>
       <section className="full-width relative overflow-hidden pt-20 pb-30">
