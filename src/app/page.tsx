@@ -1,5 +1,6 @@
 import Hero from "@/components/sections/hero";
 import Skills from "@/components/sections/skills";
+import ContactForm from "@/components/sections/contact-form";
 import Link from "next/link";
 import { Project } from "@/lib/types/project";
 import { getProjects } from "@/lib/data/project-data";
@@ -38,14 +39,18 @@ export default async function HomePage() {
         <ProjectList projects={projects.splice(0, 3)} />
       </section>
       <section className="full-width relative overflow-hidden pt-20 pb-30">
-        <div className="full-width absolute inset-0 inset-shadow-[0_0_60px_70px_white] bg-gradient-to-bl from-indigo-200/70  to-purple-200/70" />
+        <div className="full-width absolute inset-0 inset-shadow-[0_0_60px_70px_white] bg-gradient-to-bl from-blue-200/70 from-30% to-purple-200/70" />
         <div className="relative">
           <h2>Contact Me</h2>
           <p>
             I&apos;m always open to discussing new projects or opportunities.
             Feel free to reach out to me at
-            <a href="mailto:malin@example.com"> malin@example.com</a> or
-            <Link href={"/contact"}> here on my contact page</Link>.
+            <Link href="mailto:malin.rydefalk@gmail.com">
+              {" "}
+              malin.rydefalk@gmail.com
+            </Link>
+            , <Link href="tel:+46700497740">+46(0)70 049 77 40</Link> or fill out .
+            <ContactForm />
           </p>
         </div>
       </section>
