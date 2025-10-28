@@ -175,7 +175,7 @@ Not intended for commercial use.
 
 ## ✍️ Contact
 
-**Malin Rydefalk**
+**Malin Rydefalk**<br>
 💼 [Portfolio](https://nextjs-portfolio-dun-delta.vercel.app/)<br>
 🔗 [LinkedIn](https://www.linkedin.com/in/malin-rydefalk/) <br>
 🐙 [GitHub](https://github.com/malpisen)<br>
