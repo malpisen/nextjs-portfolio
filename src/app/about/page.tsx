@@ -87,7 +87,9 @@ export default function AboutPage() {
               </ul>
             </li>
             <li>
-              <h3>Bachelor's Programme in Computer and Systems Sciences</h3>
+              <h3>
+                Bachelor&apos;s Programme in Computer and Systems Sciences
+              </h3>
               <h4>Stockholm University | 2019 - 2025</h4>
               <p>
                 Bachelor of Science, 180 ECTS <br />
@@ -190,7 +192,7 @@ export default function AboutPage() {
         <section>
           <h2 className="text-start pb-1">Other</h2>
           <ul className="space-y-2">
-            <li>Driver's License (Category B)</li>
+            <li>Driver&apos;s License (Category B)</li>
             <li>Forklift License (Category A)</li>
           </ul>
         </section>
