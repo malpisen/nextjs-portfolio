@@ -12,7 +12,7 @@ export default async function ProjectsPage() {
         bg-gradient-to-bl from-orange-200/70 from-25% via-yellow-200/70 via-40% to-green-200/70"
       />
       <div className="relative m-auto">
-        <h2 className="text-center">Projects</h2>
+        <h2 className="text-center mb-5">Projects</h2>
         <ProjectList projects={projects} />
       </div>
     </section>

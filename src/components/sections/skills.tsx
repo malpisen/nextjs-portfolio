@@ -19,7 +19,7 @@ export default function Skills() {
       <div className="full-width absolute inset-0 inset-shadow-[0_0_60px_70px_white] bg-gradient-to-bl from-yellow-100 to-green-100" />
       <div className="relative">
         <h2>Skills</h2>
-        <ul className="flex justify-between items-center gap-5 text-4xl">
+        <ul className="grid grid-cols-5 sm:grid-cols-7 gap-5 mt-5 text-6xl justify-items-center items-center">
           <li>
             <SiHtml5 />
           </li>
