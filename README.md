@@ -1,88 +1,62 @@
 # 💼 Portfolio Website in Next.js
 
-A personal portfolio built with **Next.js (App Router), TypeScript** and **Tailwind CSS**, designed to present my background, projects and contact information in a visually engaging and professional way.
+A personal portfolio website built with **Next.js 15 (App Router), TypeScript** and **Tailwind CSS**, designed to present my background, experience, projects and contact information in a visually engaging and professional way.
 The purpose of this project is to practice structuring a real-world Next.js application, working with components, layouts, and data fetching — and to create a polished digital representation of my work.
 
 ---
 
 ## 📑 Table of Contents
 
-- [📖 About the Project](#-about-the-project)
+- [📖 About the project](#-about-the-project)
 - [✨ Features](#-features)
-- [🛠 Technologies](#-technologies)
-- [⚙️ Installation](#-installation)
-- [🚀 Usage](#-usage)
-- [📂 Project Structure](#-project-structure)
-- [📈 Workflow](#-workflow)
+- [🛠 Technologies used](#-technologies-used)
+- [📂 Project structure](#-project-structure)
+- [⚙️ Installation](#%EF%B8%8F-installation)
 - [🤝 Contribute](#-contribute)
-- [📚 Lessons Learned](#-lessons-learned)
-- [🚧 Possible Improvements](#-possible-improvements)
+- [📈 Workflow](#-workflow)
+- [📚 Lessons learned](#-lessons-learned)
+- [🚧 Possible improvements](#-possible-improvements)
 - [📜 License](#-license)
-- [✍️ Contact](#-contact)
+- [✍️ Contact](#%EF%B8%8F-contact)
 
 ---
 
-## 📖 About the Project
+## 📖 About the project
 
 This project serves as my **personal developer portfolio**, created to showcase my skills, education, and selected projects in a clean and modern interface.
-It uses **Next.js 15 App Router** for routing and server rendering, and **TypeScript** for type safety and maintainable code.
+It uses **Next.js 15 App Router** for routing and server rendering, **TypeScript** for type safety and maintainable code, styled with **Tailwind CSS** and custom layout utilities, and a fully functional contact form integrated with **Formspree**..
 The design focuses on simplicity, readability, and soft gradients, while maintaining accessibility and responsive behavior across all screen sizes.
 
 ---
 
 ## ✨ Features
 
-- ✅ Hero section with name, title, and social links
+- ✅ Home page with hero section including name, title, and social links, personal profile, featured projects and contact information
 - ✅ Projects page displaying project cards fetched from local JSON data
-- ✅ About page with profile and background information
-- ✅ Contact page with form
-- ✅ Responsive layout and grid system using custom CSS and Tailwind
-- ✅ Dynamic gradient backgrounds with subtle shadows
+- ✅ About page with profile, education and background information
+- ✅ Contact page with information and interactive contact form powered by Formspree for real email submissions
 - ✅ Downloadable CV as PDF link
+- ✅ Responsive layout and grid system using custom CSS and Tailwind
+- ✅ Smooth hover effects, dynamic gradient backgrounds with subtle shadows
 
 ---
 
-## 🛠 Technologies
+## 🛠 Technologies used
 
 - **Next.js 15 (App Router)**
+- **React**
 - **TypeScript**
-- **React Icons & Lucide React**
 - **Tailwind CSS**
 - **Custom CSS Grid Layouts**
-- **Vercel** for deployment
+- **React Icons & Lucide React**
+- **Git & GitHub**
+- **Formspree**
+- **Vercel**
 - **JSON data fetching**
 
 ---
 
-## ⚙️ Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/malpisen/nextjs-portfolio.git
-
-# Navigate into the project folder
-cd nextjs-portfolio
-
-# Install dependencies
-npm install
-
-# Run the development server
-npm run dev
-```
-
----
-
-## 🚀 Usage
-
-- **Home page** → Hero section with intro and links, personal profile, featured projects and contact information
-- **Projects page** → Displays project cards with data from `/data/projects.json`
-- **About page** → Background and education
-- **Contact page** → Message form and social icons
-- **Download CV** → Opens or downloads a PDF file
-
----
-
-## 📂 Project Structure
+## 📂 Project structure
 
 ```
 ├── app/
@@ -124,13 +98,21 @@ npm run dev
 
 ---
 
-## 📈 Workflow
+## ⚙️ Installation
 
-🧭 Personal project developed using **Agile-inspired iteration**  
-📋 Project management through **GitHub Projects** (Kanban board)  
-🌿 Feature branches for structured development  
-🔍 Manual testing and visual QA for responsiveness and accessibility  
-🚀 Deployment via **Vercel**
+```bash
+# Clone the repository
+git clone https://github.com/malpisen/nextjs-portfolio.git
+
+# Navigate into the project folder
+cd nextjs-portfolio
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
 
 ---
 
@@ -145,7 +127,17 @@ This is a personal educational project, but contributions, feedback, or suggesti
 
 ---
 
-## 📚 Lessons Learned
+## 📈 Workflow
+
+🧭 Personal project developed using **Agile-inspired iteration**  
+📋 Project management through **GitHub Projects** (Kanban board)  
+🌿 Feature branches for structured development  
+🔍 Manual testing and visual QA for **responsiveness** and **accessibility**  
+🚀 Deployed using **Vercel** for production hosting
+
+---
+
+## 📚 Lessons learned
 
 - Structuring Next.js projects with App Router
 - Managing local JSON data and static builds in Vercel
@@ -155,12 +147,12 @@ This is a personal educational project, but contributions, feedback, or suggesti
 
 ---
 
-## 🚧 Possible Improvements
+## 🚧 Possible improvements
 
 - Implement Loading/Suspense
-- Add animations and micro-interactions (Framer Motion)
-- Implement a working contact form using email API (e.g. Formspree)
 - Add dark/light theme toggle
+- Add English/Swedish toggle
+- Add animations and micro-interactions (Framer Motion)
 - Add more project details and tags (e.g., filters by tech stack)
 - Improve SEO with metadata and Open Graph integration
 
@@ -175,9 +167,9 @@ Not intended for commercial use.
 
 ## ✍️ Contact
 
-**Malin Rydefalk**<br>
-💼 [Portfolio](https://nextjs-portfolio-dun-delta.vercel.app/)<br>
-🔗 [LinkedIn](https://www.linkedin.com/in/malin-rydefalk/) <br>
-🐙 [GitHub](https://github.com/malpisen)<br>
+**Malin Rydefalk**  
+💼 [Portfolio](https://nextjs-portfolio-dun-delta.vercel.app/) (this project 🥳)  
+🔗 [LinkedIn](https://www.linkedin.com/in/malin-rydefalk/)  
+🐙 [GitHub](https://github.com/malpisen)
 
 > “Don't hesitate to reach out — whether you're looking for a developer, have a question, want to exchange ideas, or simply just want to say hi!”
