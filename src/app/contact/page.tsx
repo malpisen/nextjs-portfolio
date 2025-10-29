@@ -18,20 +18,20 @@ export default function ContactPage() {
           </p>
           <div>
             <Link href="mailto:malin.rydefalk@gmail.com">
-              E-mail: malin.rydefalk@gmail.com
+              malin.rydefalk@gmail.com
             </Link>
             <br />
-            <Link href="tel:+46700497740">Phone: +46(0)70 049 77 40</Link>
+            <Link href="tel:+46700497740">+46(0)70 049 77 40</Link>
             <br />
             <Link href="https://www.linkedin.com/in/malin-rydefalk/">
-              LinkedIn: linkedin.com/in/malin-rydefalk
+              linkedin.com/in/malin-rydefalk
             </Link>
             <br />
             <Link href="https://www.github.com/malpisen">
-              GitHub: github.com/malpisen
+              github.com/malpisen
             </Link>
             <br />
-            <p>Location: Stockholm, Sweden</p>
+            <p>📍 Stockholm, Sweden</p>
           </div>
         </div>
         <ContactForm />
