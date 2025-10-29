@@ -1,6 +1,18 @@
+"use client";
+
+import { useForm, ValidationError } from "@formspree/react";
+
 export default function ContactForm() {
+  const [state, handleSubmit] = useForm("mvgvaoqz");
+  if (state.succeeded) {
+    return (
+      <p className="text-2xl text-center font-nuntino font-semibold">
+        Thank you for your message, I will get back to you as soon as possible!
+      </p>
+    );
+  }
   return (
-    <form>
+    <form onSubmit={handleSubmit} className="place-self-center min-w-2xl">
       <label htmlFor="name" className="block p-1">
         Name
       </label>
@@ -14,7 +26,7 @@ export default function ContactForm() {
       />
 
       <label htmlFor="email" className="block p-1">
-        E-mail
+        Email Address
       </label>
       <input
         type="email"
@@ -24,6 +36,7 @@ export default function ContactForm() {
         required
         className="input-field w-full"
       />
+      <ValidationError prefix="Email" field="email" errors={state.errors} />
 
       <label htmlFor="message" className="block p-1">
         Message
@@ -36,8 +49,13 @@ export default function ContactForm() {
         required
         className="input-field w-full resize-none"
       ></textarea>
+      <ValidationError prefix="Message" field="message" errors={state.errors} />
 
-      <button type="submit" className="button py-1 px-5 place-self-center">
+      <button
+        type="submit"
+        disabled={state.submitting}
+        className="button py-1 px-5 place-self-center"
+      >
         Send
       </button>
     </form>

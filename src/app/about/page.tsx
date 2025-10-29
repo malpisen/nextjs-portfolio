@@ -184,9 +184,16 @@ export default function AboutPage() {
         <section>
           <h2 className="text-start pb-1 ">Languages</h2>
           <ul className="space-y-2">
-            <li>Swedish: Native</li>
-            <li>English: Fluent (spoken and written)</li>
-            <li>German: Basic knowledge</li>
+            <li>
+              <span className="font-semibold">Swedish: </span>Native
+            </li>
+            <li>
+              <span className="font-semibold">English: </span>Fluent (spoken and
+              written)
+            </li>
+            <li>
+              <span className="font-semibold">German: </span>Basic knowledge
+            </li>
           </ul>
         </section>
         <section>

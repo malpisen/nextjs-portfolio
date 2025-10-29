@@ -46,10 +46,10 @@ export default async function HomePage() {
             I&apos;m always open to discussing new projects or opportunities!
             <br />
             Feel free to reach out to me at{" "}
-            <Link href="mailto:malin.rydefalk@gmail.com">
+            <Link href="mailto:malin.rydefalk@gmail.com" className="font-semibold">
               malin.rydefalk@gmail.com
             </Link>
-            , <Link href="tel:+46700497740">+46(0)70 049 77 40</Link> or fill
+            , <Link href="tel:+46700497740" className="font-semibold">+46(0)70 049 77 40</Link> or fill
             out the form below.
           </p>
           <ContactForm />
